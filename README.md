@@ -21,7 +21,7 @@ NeonLink is a futuristic, cyberpunk-themed messaging application built with Next
 
 ## 🚀 Live Demo
 
-Check out the live demo: [NeonLink Demo](https://neonlink-demo.vercel.app)
+Check out the live demo: [NeonLink Demo](https://neonlink-chi.vercel.app/)
 
 ## 🛠️ Technologies Used
 
