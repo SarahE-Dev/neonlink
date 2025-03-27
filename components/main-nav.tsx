@@ -25,9 +25,6 @@ export function MainNav() {
       <div className="flex h-14 items-center px-4">
         {/* Left Section */}
         <div className="flex items-center">
-          <Button variant="ghost" size="icon" className="md:hidden mr-2">
-            <Menu className="h-5 w-5" />
-          </Button>
           <h1 className="text-xl font-bold tracking-wider neon-text">
             NEON<span className="text-secondary neon-text-secondary">LINK</span>
           </h1>
