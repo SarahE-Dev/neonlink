@@ -94,7 +94,7 @@ export function VideoConference() {
   return (
     <div className="flex flex-col h-full">
       {/* Main video area */}
-      <div className="flex-1 p-4 relative overflow-hidden">
+      <div className="flex-1 p-4 relative overflow-auto">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 z-0"></div>
 
         {activeView === "grid" ? (
