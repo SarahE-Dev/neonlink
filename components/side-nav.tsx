@@ -52,11 +52,15 @@ const bottomNavItems = [
   },
 ]
 
-export function SideNav() {
+interface SideNavProps {
+  isSidebarOpen: boolean
+}
+
+export function SideNav({isSidebarOpen}: SideNavProps) {
   const pathname = usePathname()
 
   return (
-    <div className="hidden md:flex flex-col w-14 border-r border-primary/20 bg-black/80 backdrop-blur-sm">
+    <div className={`${isSidebarOpen ? "flex" : "hidden"} md:flex flex-col w-14 border-r border-primary/20 bg-black/80 backdrop-blur-sm`}>
       <div className="flex flex-col items-center py-4 gap-4">
         {navItems.map((item) => (
           <Link key={item.href} href={item.href}>
