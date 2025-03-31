@@ -7,7 +7,7 @@ import ClientLayout from "@/components/client-layout"; // New client component
 export const metadata = {
   title: "NeonLink - Cyberpunk Messenger",
   description: "A futuristic cyberpunk messaging platform",
-  generator: "v0.dev",
+  generator: "Next.js + Tailwind CSS",
 };
 
 export default function RootLayout({
